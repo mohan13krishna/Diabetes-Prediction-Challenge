@@ -4,7 +4,7 @@
 
 ![Kaggle](https://img.shields.io/badge/Kaggle-Playground%20S5E12-20BEFF?style=for-the-badge&logo=kaggle)
 ![Rank](https://img.shields.io/badge/RANK-877%2F4206-FF6B6B?style=for-the-badge)
-![Score](https://img.shields.io/badge/Best%20Score-0.69760%20%2F%200.69765-00D9FF?style=for-the-badge)
+![Score](https://img.shields.io/badge/Best%20Score-0.69760-00D9FF?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python)
 
 ### ⚡ **TOP 20.8% - ENSEMBLE MASTERY UNLOCKED!** ⚡
