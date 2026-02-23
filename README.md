@@ -112,22 +112,23 @@ Four competitions in, and we're continuously improving. This time? **Medical Fea
 | Version | Approach | CV AUC | Public | Private | Key Features | Technique |
 |---------|----------|--------|--------|---------|--------------|-----------|
 | **V1** | Target Encoding + Data Combo | - | - | - | 75 feats, 800K samples (700K+100K) | Smoothed target encoding for categoricals |
-| **V4** | 10-Fold Baseline | **0.7306** | - | - | 72 features | Stability focus, conservative hyperparams |
-| **V5** | Tuned Ensemble + Interactions | **0.7305** | - | - | 77 features | BMI×Age, BP mean, chol ratio interactions |
-| **V7** | Advanced Feature Engineering | **0.7304** | - | - | 77 features | Lifestyle risk scoring, age×bmi feature |
-| **V8** | Anti-Overfit Stacking | **0.7304** | - | - | 77 features | LR meta-learner, 5-fold, enable_categorical |
-| **V9** | Stable Optuna Ensemble | **0.7305** | - | - | 75 features | Optuna Trial 42, 1342 estimators, proven weights |
+| **V4** | 10-Fold Baseline | **0.7306** | **0.70014** | **0.69791** | 72 features | Stability focus, conservative hyperparams |
+| **V5** | Tuned Ensemble + Interactions | **0.7305** | **0.70026** | **0.69779** | 77 features | BMI×Age, BP mean, chol ratio interactions |
+| **V7** | Advanced Feature Engineering | **0.7304** | **0.70026** | **0.69794** | 77 features | Lifestyle risk scoring, age×bmi feature |
+| **V8** | Anti-Overfit Stacking | **0.7304** | **0.67683** | **0.67675** | 77 features | LR meta-learner, 5-fold, enable_categorical |
+| **V9** | Stable Optuna Ensemble | **0.7305** | **0.70031** | **0.69791** | 75 features | Optuna Trial 42, 1342 estimators, proven weights |
 | **V10** | Optuna-Tuned 5-Fold | **0.7305** | - | - | 75 features | Optuna Trial 42, learning_rate=0.02535 |
 | **V11** | Medal Ensemble | - | - | - | 75 features | 10-fold heavy reg (V12 variant) |
-| **V12** | Strong Heavy Regularization | **0.731** | - | - | 75 features | 10-fold, 5000 CV est, L1=1.5 L2=2.0-2.2 |
-| **V15** | Stacking Meta-Learner | - | - | - | 75 features | Logistic Regression stacking, OOF blending |
+| **V12** | Strong Heavy Regularization | **0.731** | **0.69982** | **0.69778** | 75 features | 10-fold, 5000 CV est, L1=1.5 L2=2.0-2.2 |
+| **V15** | Stacking Meta-Learner | - | **0.70014** | **0.69793** | 75 features | Logistic Regression stacking, OOF blending |
 | **V16** | Enhanced External Encoding | - | - | - | 75 features | Advanced mean/count encoding from original |
-| **V17** | Feature Reduction | - | - | - | 75 features | Memory optimization, 3000 CV est |
-| **V18** | Ensemble Foundation | - | - | - | 75 features | 3-model ensemble baseline architecture |
-| **V20** | Heavy Regularization Baseline | - | - | **0.69759** | 75 features | Baseline comparison, no feature selection |
+| **V17** | Feature Reduction | - | **0.69926** | **0.69663** | 75 features | Memory optimization, 3000 CV est |
+| **V18** | Ensemble Foundation | - | **0.70037** | **0.69759** | 75 features | 3-model ensemble baseline architecture |
+| **V20** | Heavy Regularization Baseline | - | **0.70037** | **0.69759** | 75 features | Baseline comparison, no feature selection |
 | **V21** 🥇 | **CHAMPION** | **0.731+** | **0.70042** 🔥 | **0.69760** 🔒 | 38 features | SelectFromModel feature selection + Isotonic |
 | **V24** 🥉 | Feature-Selected Ensemble | - | **0.70036** | **0.69765** | 40 features | SelectFromModel, median threshold |
 | **V26** 🥈 | SMOTE Multi-Seed | - | **0.69767** | **0.69550** | 77 features | SMOTE resampling, 3-seed averaging |
+| **V27** | Final Polish Ensemble | - | **0.69737** | **0.69511** | 75 features | Last iteration testing and refinement |
 
 ### 📊 **Version Categories Explained**
 
