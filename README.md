@@ -95,7 +95,7 @@ Four competitions in, and we're continuously improving. This time? **Medical Fea
 
 **Dataset Creators:** Team Phoenix Algorithms  
 **Lead Author:** Mohan Krishna Thalla  
-**Co-Authors:** Rakesh Kolipaka, Ranjith Kumar Digutla, Uday Kiran Neelam
+**Co-Authors:** Rakesh Kolipaka, Ranjith Kumar Digutla, Uday Kiran Neelam  
 **Status:** ⭐ **SILVER MEDAL 🥈** - Selected for Official Kaggle Playground Competition
 
 **Dataset Details:**
